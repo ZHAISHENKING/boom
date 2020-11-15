@@ -1,0 +1,73 @@
+/* 公共部分 */
+html,body{height:100%;font-family: 'Lato',sans-serif;color: #333;font-size: 14px; line-height: 26px;}
+*{padding:0; margin:0; box-shadow: none;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+ul li{float: left;}
+ul li a{text-align: center;line-height:60px;}
+h1{font-size:60px;line-height:1.6em;}
+h2{font-size: 48px;letter-spacing: -.5px;text-transform: none;font-weight: 400;}
+h4{line-height:1.4em;letter-spacing: .25px;font-weight: 400;font-size:24px;padding-top:10px;padding-bottom:40px;text-align:left;}
+#app{display: flex;flex-direction: column;height: 100%;}
+
+/* 顶部导航 */
+.header{
+    height:125px;
+    background:#000;
+}
+.clearfix{clear:both;margin:0 auto;width:1100px; }
+.logo{
+    float:left;
+    text-align: left;
+    width:200px;
+}
+.logo h4{line-height:125px;margin:0;padding:0;}
+.nav{float:right;}
+.nav-bar{height:125px;}
+.nav-bar ul li{text-align: center;}
+.nav-bar ul li a {padding:0 17px;}
+.nav-bar ul li a span{text-transform: uppercase;color:#fff;letter-spacing: 1px;font-weight: 600;font-size:13px;line-height:125px;}
+
+/* banner部分 */
+/* .container{flex:1;background:url('https://robotboys.com/wp-content/uploads/2018/12/robotboys-wide.jpg') no-repeat; background-size:contain} */
+.container{flex:1;background:#000; background-size:contain}
+
+.banner{margin:0 auto;height:530px;}
+#content{padding-top:100px;color:#fff;}
+#content h4{width:450px;vertical-align:baseline;}
+
+/* 中间展示 */
+.section{width:100%;margin-bottom:60px;}
+.white-block{height:400px; }
+.video{display: flex;}
+.inner_media{width:66%;background: url(https://qiniu.s001.xin/popper/banner2.png) no-repeat -50px;height:400px;float:left;background-size:cover;}
+.article{float:right;padding-left:40px;flex:1;}
+.article h2{line-height: 48px;}
+.block{width:1100px; padding:60px 0 60px;margin:0 auto;}
+.desc{color:#333;padding:20px 0 20px;}
+.outer-1{width:100%;background:#eee}
+.outer-2{width:100%;background:#fff}
+
+.videos>ul, .music>ul{display: flex; flex-wrap: nowrap;flex-direction: row;}
+.videos ul li, .music ul li{flex:1;padding-right:20px;}
+.title{width:100%; padding-bottom:30px; line-height:70px;}
+.music-title{text-align: center;}
+.music>ul{text-align: center;}
+.x-title{font-weight: bold;font-size:16px;padding-top:20px;}
+.videos ul li .desc{padding-top:0;}
+.photo{width:535px;}
+
+.more{width: fit-content;height:40px; padding:0 20px 0;border:1px solid #303030;border-radius: 4px;
+    margin:0 auto;color:#303030;text-align:center;line-height:40px;text-transform: uppercase;cursor: pointer;}
+.more:hover{background:#333; color:#fff;}
+.more-container{width:100%;padding-top:60px;padding-bottom:30px;text-align: center;}
+
+/* 页脚 */
+.news{height:150px;padding:72px 0 52px; background:#262626;}
+.news ul{display:flex;flex-direction: row;width: 1100px;margin: 0 auto;}
+.news ul li{width:25%;text-align: center; color:#fff;}
+.news .news-title{font-weight: bold;font-size:20px;line-height:20px;margin-bottom:26px;}
+.news li p{font-size:14px;color:#818181;}
+.copyright{height:60px;background:#000;color:#666;font-size:13px;text-align: center; line-height:60px;}
+
+.no-back{background:none;}
