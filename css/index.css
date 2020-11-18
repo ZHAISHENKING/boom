@@ -2,7 +2,7 @@
 html,body{height:100%;font-family: 'Lato',sans-serif;color: #333;font-size: 14px; line-height: 26px;}
 *{padding:0; margin:0; box-shadow: none;}
 ul,li{list-style: none;}
-a{text-decoration: none;}
+a{text-decoration: none; cursor: pointer}
 ul li{float: left;}
 ul li a{text-align: center;line-height:60px;}
 h1{font-size:60px;line-height:1.6em;}
@@ -22,15 +22,15 @@ h4{line-height:1.4em;letter-spacing: .25px;font-weight: 400;font-size:24px;paddi
     width:200px;
 }
 .logo h4{line-height:125px;margin:0;padding:0;}
+.logo a{color:#fff; font-size:30px; font-family: fantasy;}
 .nav{float:right;}
 .nav-bar{height:125px;}
 .nav-bar ul li{text-align: center;}
-.nav-bar ul li a {padding:0 17px;}
-.nav-bar ul li a span{text-transform: uppercase;color:#fff;letter-spacing: 1px;font-weight: 600;font-size:13px;line-height:125px;}
+.nav-bar ul li a {padding:0 17px; cursor: pointer;}
+.nav-bar ul li a span{text-transform: uppercase;color:#fff;letter-spacing: 1px;font-weight: 600;font-size:15px;line-height:125px;}
 
 /* banner部分 */
-/* .container{flex:1;background:url('https://robotboys.com/wp-content/uploads/2018/12/robotboys-wide.jpg') no-repeat; background-size:contain} */
-.container{flex:1;background:#000; background-size:contain}
+.container{position: relative; flex:1;background:url('https://qiniu.s001.xin/popper/boom_banner.jpg') no-repeat; background-size:cover;}
 
 .banner{margin:0 auto;height:530px;}
 #content{padding-top:100px;color:#fff;}
@@ -44,7 +44,7 @@ h4{line-height:1.4em;letter-spacing: .25px;font-weight: 400;font-size:24px;paddi
 .article{float:right;padding-left:40px;flex:1;}
 .article h2{line-height: 48px;}
 .block{width:1100px; padding:60px 0 60px;margin:0 auto;}
-.desc{color:#333;padding:20px 0 20px;}
+.desc{color:#333;padding:20px 0 20px;font-size:14px;}
 .outer-1{width:100%;background:#eee}
 .outer-2{width:100%;background:#fff}
 
@@ -61,7 +61,7 @@ h4{line-height:1.4em;letter-spacing: .25px;font-weight: 400;font-size:24px;paddi
     margin:0 auto;color:#303030;text-align:center;line-height:40px;text-transform: uppercase;cursor: pointer;}
 .more:hover{background:#333; color:#fff;}
 .more-container{width:100%;padding-top:60px;padding-bottom:30px;text-align: center;}
-.desc .introduce{font-size:16px;font-weight:400;padding-top:20px;min-height: 40px;line-height: 40px;color:#999}
+.desc .introduce{border-bottom: solid 1px; font-size:16px;font-weight:400;padding-top:20px;min-height: 40px;line-height: 40px;color:#999}
 .desc .introduce .name{float:left}
 .desc .introduce .email{float:right}
 .summary{font-size:16px;}
@@ -73,5 +73,5 @@ h4{line-height:1.4em;letter-spacing: .25px;font-weight: 400;font-size:24px;paddi
 .news .news-title{font-weight: bold;font-size:20px;line-height:20px;margin-bottom:26px;}
 .news li p{font-size:14px;color:#818181;}
 .copyright{height:60px;background:#000;color:#666;font-size:13px;text-align: center; line-height:60px;}
-
+.copyright a{color:#939393;}
 .no-back{background:none;}
